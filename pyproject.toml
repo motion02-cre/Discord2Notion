@@ -3,5 +3,8 @@ name = "discord2notion"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
-dependencies = []
+requires-python = ">=3.12"
+dependencies = [
+    "discord-py>=2.7.0",
+    "notion>=0.1.0",
+]
